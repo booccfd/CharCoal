@@ -8,36 +8,39 @@ html,body{width:100%;height:100%;background-color:#fff;}
 
 /* header_wrap */
 .header_wrap{position:relative;display:block;width:100%;z-index:222;}
-.header{display:block;/*background-color:#161616;*/ background-image:url(../img/bg/casino-online.jpg);}
-.header_inner{position:relative;display:block;max-width:1160px;margin:0 auto;padding:0;}
-.header_inner .logo{position:absolute;top:7px;left:-10px;}
+.header{display:block;/*background-color:#161616; background-image:url(../img/bg/casino-online.jpg);*/}
+.header_inner{position:relative;display:block;max-width:1200px;margin:0 auto;padding:0;}
+.header_inner .logo{position:absolute;top:7px;left:0;}
 .header_inner .logo a{display:block;}
 .header_inner .logo a img{width:90px;height:auto;}
 
 /* container */
-#container{position:relative;display:block;width:100%;height:100%;z-index:111;background-image:url(../img/bg/casino-online.jpg);}
-.container_inner{position:relative;display:block;/*max-width:1140px;margin:0 auto;*/width:100%;padding-top:71px;}
+#container{position:relative;display:block;width:100%;height:100%;z-index:111;/*background-image:url(../img/bg/casino-online.jpg);*/}
+.container_inner{position:relative;display:block;/*max-width:1140px;margin:0 auto;*/width:100%;padding-top:73px;}
 
 .container_inner .head_wrap{position:absolute;left:0;top:0;width:100%;z-index:111;}
-.container_inner .ads{width:100%;}
+.container_inner .ads{width:100%;background-color:#012d16;}
 .container_inner .ads .sponsor{position:relative;display:block;max-width:1020px;margin:0 auto;padding:5px 25px 0 135px;overflow:hidden;}
 .container_inner .ads .sponsor .btn{position:absolute;top:50%;width:50px;height:50px;margin-top:-25px;background-repeat:no-repeat;background-position:0 0;background-size:50px 50px;}
 .container_inner .ads .sponsor .btn_prev{left:110px;background-image:url(../img/btn/btn_previous.png);}
 .container_inner .ads .sponsor .btn_next{right:0;background-image:url(../img/btn/btn_next.png);}
-.container_inner .ads .sponsor li{width:10%;background-color:#fff;}
-.container_inner .ads .sponsor li:first-child{border-top-left-radius:3px;}
-.container_inner .ads .sponsor li:last-child{border-top-right-radius:3px;}
-.container_inner .ads .sponsor li a{padding:7px 7px 0 7px;height:60px; /*background-color:#fff;*/}
+.container_inner .ads .sponsor li{width:10%;}
+.container_inner .ads .sponsor li a{padding:7px 3px 7px 3px;height:60px; /*background-color:#fff;*/}
 .container_inner .ads .sponsor li a > img{height:100%;}
 
 /* menu_primary */
-.menu_primary{display:block;width:100%;height:50px;/*background-color:#d20913;*/ background-image:url(../img/bg/bg_red.png);background-repeat:repeat;background-position:0 0;z-index:9999;}
+.menu_primary{display:block;width:100%;height:45px;background-image:url(../img/bg/bg_chajchas.png);background-repeat:repeat;background-position:0 0;z-index:9999;}
 .menu_primary .menu_primary_inner{display:block;max-width:1020px;height:50px;margin:0 auto;padding:0 25px 0 135px;/*background-color:pink;*/}
 .menu_primary ul{display:block;overflow:hidden;}
 .menu_primary ul li{float:left;width:10%;}
-.menu_primary ul li a{display:block;font-size:18px;padding:0 15px;color:#fdccd3;line-height:50px;font-weight:bold;text-align:center;}
+.menu_primary ul li a{display:block;font-size:18px;padding:0 15px;color:#fdccd3;line-height:45px;font-weight:bold;text-align:center;}
 .menu_primary ul li a > img{height:50px;}
-.menu_primary ul li a:hover, .menu_primary ul li.on a{color:#fff;background-image:url(../img/bg/bg_red_over.png);background-repeat:repeat;background-position:0 0;/*background-color:#bb0710;*/}
+.menu_primary ul li a:hover, .menu_primary ul li.on a{color:#fff;background-color:#012d16;}
+
+.animate_text{position:absolute;bottom:0;left:0;display:block;width:100%;height:30px;background-image:url(../img/bg/bg_chajchas.png);background-repeat:repeat;background-position:0 0;z-index:99999;}
+.animate_text .anim_content{margin-left:210px;}
+.animate_text p{font-size:12px;color:#fff;line-height:30px;font-weight:normal;}
+
 
 /* slide_wrap_index */
 .slide_wrap_index{position:relative;display:block;width:100%;margin:0;padding:0;}
@@ -107,10 +110,6 @@ html,body{width:100%;height:100%;background-color:#fff;}
 .slide_wrap_index .slide_container_index .slide_desc > p{display:block;margin:0;padding:4px 0 5px;font-family:'NotoSansRegular';font-size:21px;color:#fff;font-weight:400;line-height:31px;text-shadow:0 0 10px rgba(0,0,0,0.75);}
 .slide_wrap_index .slide_container_index .slide_desc > p span{display:block;}
 .slide_wrap_index .slide_container_index .slide_desc > p .br_desc_mobile{display:none;}
-
-.animate_text{position:absolute;bottom:0;left:0;display:block;width:100%;height:30px;background-image:url(../img/bg/bg_red.png);background-repeat:repeat;background-position:0 0;z-index:99999;}
-.animate_text .anim_content{margin-left:210px;}
-.animate_text p{font-size:12px;color:#fff;line-height:30px;font-weight:normal;}
 
 
 .sec{width:100%;height:100%;}
@@ -198,8 +197,13 @@ html,body{width:100%;height:100%;background-color:#fff;}
 .sponsor ul li a img{width:100%;}
 
 
+
+.wrap.amazon {}
+
+
+
 /* footer */
-.footerwrap{display:block;width:100%;height:300px;background-color:#000;text-align:center;color:#fff !important;}
+.footerwrap{display:block;width:100%;height:300px;background-color:#012d16;text-align:center;color:#fff !important;}
 .footerwrap ul.nav_cond{display:block;overflow:hidden;}
 .footerwrap ul.nav_cond li{float:left;}
 .footerwrap ul.nav_cond li a{display:block;padding:7px 10px;font-size:16px;color:#ccc;}
