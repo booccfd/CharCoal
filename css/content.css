@@ -10,7 +10,7 @@ html,body{width:100%;height:100%;background-color:#fff;}
 .header_wrap{position:relative;display:block;width:100%;z-index:222;}
 .header{display:block;/*background-color:#161616; background-image:url(../img/bg/casino-online.jpg);*/}
 .header_inner{position:relative;display:block;max-width:1200px;margin:0 auto;padding:0;}
-.header_inner .logo{position:absolute;top:7px;left:0;}
+.header_inner .logo{position:absolute;top:0;left:0;}
 .header_inner .logo a{display:block;}
 .header_inner .logo a img{width:90px;height:auto;}
 
@@ -25,7 +25,7 @@ html,body{width:100%;height:100%;background-color:#fff;}
 .container_inner .ads .sponsor .btn_prev{left:110px;background-image:url(../img/btn/btn_previous.png);}
 .container_inner .ads .sponsor .btn_next{right:0;background-image:url(../img/btn/btn_next.png);}
 .container_inner .ads .sponsor li{width:10%;}
-.container_inner .ads .sponsor li a{padding:7px 3px 7px 3px;height:60px; /*background-color:#fff;*/}
+.container_inner .ads .sponsor li a{padding:7px 3px 10px 3px;height:60px; /*background-color:#fff;*/}
 .container_inner .ads .sponsor li a > img{height:100%;}
 
 /* menu_primary */
@@ -203,7 +203,7 @@ html,body{width:100%;height:100%;background-color:#fff;}
 
 
 /* footer */
-.footerwrap{display:block;width:100%;height:300px;background-color:#012d16;text-align:center;color:#fff !important;}
+.footerwrap{display:block;width:100%;height:300px;border-top:2px solid #f5f804;background-color:#012d16;text-align:center;color:#fff !important;}
 .footerwrap ul.nav_cond{display:block;overflow:hidden;}
 .footerwrap ul.nav_cond li{float:left;}
 .footerwrap ul.nav_cond li a{display:block;padding:7px 10px;font-size:16px;color:#ccc;}
